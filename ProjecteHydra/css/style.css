@@ -73,3 +73,41 @@ body {
         padding: 60px 0;
     }
 }
+
+.section {
+    padding: 100px 0;
+}
+
+.carousel-item img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.crew-info {
+    padding: 20px;
+}
+
+.crew-info h3 {
+    margin-bottom: 10px;
+}
+
+.crew-info h5 {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Animación para el cambio de texto */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
